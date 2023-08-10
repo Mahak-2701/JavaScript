@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOP WATCH</title>
+    <style>
+
+        .box{
+            border-style: double;
+            text-align: center;
+            padding:40px;
+            margin:150px;
+        }
+        input{
+            width:100px;
+            height:50px
+        }
+        #start{
+            background-color: rgb(73, 209, 73);
+            
+        }
+        #stop{
+            background-color: rgb(234, 120, 120);
+        }
+        #reset{
+            background-color: orange;
+        }
+        h1{
+            color: rgb(50, 68, 181);
+        }
+    </style>
+    <script>
+        var hrs=0;
+        var min=0;
+        var sec=0;
+        var ms=0;
+        var res;
+        function timer(){
+            if( min==59 && sec==59 )
+            {
+                hrs++;
+                min=0;
+                sec=0;
+                ms=0;
+            }
+           else if(sec==59&& ms==99)
+            {
+                min++;
+                sec=0;
+                ms=0;
+            }
+            else if(ms==99)
+            {
+                sec++;
+                ms=0;
+            }
+            else{
+                ms++;
+            }
+            var h,m,s,mi;
+            if(hrs<10) h="0"+hrs;else h=hrs;
+            if(min<10) m="0"+min;else m=min;
+            if(sec<10) s="0"+sec;else s=sec;
+            if(ms<10) mi="0"+ms;else mi=ms;
+            document.getElementById("m1").innerHTML=h+" : "+m+" : " +s+" : "+mi;
+        }
+        function start(){
+             res=setInterval(timer,1);
+        }
+        const stop= ()=>{              //arrow function is like function
+            clearInterval(res);
+        }
+         const reset=function (){               //anomias fuction
+            hrs=0;
+            min=0;
+            sec=0;
+            ms=0;
+            document.getElementById("m1").innerHTML= "00 : 00: 00: 00";
+            clearInterval(res);
+        }
+    </script>
+</head>
+<body  >
+   
+    <div class="box">
+        <h1  >STOPWATCH</h1>
+        <h1 id="m1">00:00:00:00</h1>
+        <br>
+        <input type="button" value="START" id="start" onclick="start()">
+         <input type="button" value="STOP" id="stop" onclick="stop()">
+         <input type="button" value="RESET" id="reset" onclick="reset()">
+    </div>
+</body>
+</html>
