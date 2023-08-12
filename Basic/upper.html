@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>img & upercase</title>
+    
+</head>
+<body>
+    <label>Enter your name</label>
+    <br>
+    <br>
+    <input type="text" class="t1" style="text-transform : uppercase">
+    <br>
+    <img src="cat.jpg" onmouseover="changeimg()" id="i1" onmouseout="restore()">
+    <script>
+        function changeimg()
+        {
+            var ved=document.getElementById("i1");
+            ved.src="dog.jpg";
+        }
+        function restore()
+        {
+            var store =document.getElementById("i1");
+            store.src="cat.jpg";
+        }
+    </script>    
+</body>
+</html>
