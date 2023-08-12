@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body align="center">
+    <h1 align="center">MATH QUIZ</h1>
+    <h2 id="t1"></h2>
+    <input type="number" id="t2" placeholder="Answer"/>
+    <br><br>
+    <input type="button" value="verify" onclick="check()">
+    <br><br>
+    <div id="res"></div>
+    <script>
+        var num2 = parseInt(Math.random() * 90) + 10;
+        var arr = ["+", "-", "*"];
+        var opr = arr[Math.floor(Math.random() * arr.length)];
+        var num1 = parseInt(Math.random() * 90) + 10;
+        var eqn = num1 + opr + num2;
+        document.querySelector("#t1").innerHTML = eqn;
+       
+        var res=document.getElementById("res");
+        function check() {
+            var result; var ans = document.getElementById("t2").value;
+            switch (opr) {
+                case '-':
+                    result = num1 - num2;
+                    break;
+                case '+':
+                    result = num1 + num2;
+                    break;
+                case '*':
+                    result = num1 * num2;
+                    break;
+                default:
+                        res.innerHTML="CANNOT CALCULATE";
+            }
+            if(ans==result){
+                res.style.color = "green";
+            res.innerHTML="CORRECT ANSWER";
+            }else
+            {
+                res.style.color = "red"
+                res.innerHTML="INCORRECT ANSWER";}
+        }
+    </script>
+</body>
+
+</html>

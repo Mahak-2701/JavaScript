@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORM || VALIDATION</title>
+    <style>
+        #l1,#l2,#l3{
+            margin-left: 60px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form onsubmit="return validationform()">
+        <label>NAME</label>
+        <input type="text" name="a1" id="i1">
+        <br>
+        <label id="l1"></label>
+        <br>
+        <label>EMAIL</label>
+        <input type="text" name="a2" id="i2">
+        <br>
+        <label id="l2"></label>
+        <br>
+        <label>PASSWORD</label>
+        <input type="text" name="a3" id="i3">
+        <br>
+        <label id="l3"></label>
+        <br><br>
+        <input type="submit" name="sub">
+    </form>
+	
+	    <script>
+        var isempty = () => {
+			var flag = true;        
+			var ob1 = document.getElementById("l1");
+            var ob2= document.getElementById("l2");
+            var ob3 = document.getElementById("l3");
+			var name = document.getElementById("i1").value;
+            if (name.length == 0) {
+                ob1.innerHTML = "cannot be blank ";
+                flag = false;
+            } else {
+                ob1.innerHTML = " ";
+				//alert("FOrm submitted !");
+            }
+            
+            var email = document.getElementById("i2").value;
+            if (email.length == 0) {
+                ob2.innerHTML = "cannot be blank ";
+                flag = false;
+            } else {
+                ob2.innerHTML = " ";
+				//alert("FOrm submitted !");
+            }
+            var password = document.getElementById("i3").value;
+            if (password.length == 0) {
+                ob3.innerHTML = "cannot be blank ";
+                flag = false;
+            } else {
+                ob3.innerHTML = " ";
+				//alert("FOrm submitted !");
+            }
+            
+            return flag;
+        }
+        var emailval=()=>{
+		var flag = true;
+            var email=document.getElementById("i2").value;
+            var ob2=document.getElementById("l2");
+            var x=email.indexOf("@");
+            var y=email.lastIndexOf(".");
+            var len=email.length;
+            if(x>-1 && x>=1 && (y-1-x)>=1 && (len-1-y)>=2)
+            {
+                ob2.innerHTML=" ";
+                flag = false;
+            }
+            else
+            {
+                ob2.innerHTML=" Invalid Email!!";  
+				flag = false;
+            }
+           
+        }
+        var passwordval=()=>{     
+		var flag = true;
+            var password=document.getElementById("i3").value;
+            var ob3=document.getElementById("l3");
+            if(password.length<8)
+            {
+                // alert("hi");
+                ob3.innerHTML=" Password contain Minimum 8 characters";
+                flag = false;
+            }
+            else{
+                var upper=0;
+				var lower=0;
+                var digit=0;
+                var symbol=0;
+                for(i=0;i<password.length;i++)
+                {
+                    var code=password.charCodeAt(i);
+                    if(code>=65 && code<=90)
+                        upper++;
+                    else if(code>=97 && code<=122)
+                        lower++;
+                    else if(code>=48 && code<57)
+                        digit++;
+                    else
+                        symbol++;
+                }
+                if(upper>=2 && lower>=2 && digit>=2 && symbol>=1)
+                {
+                    ob3.innerHTML=" ";
+                    //flag = true;
+                }
+                else
+                {
+                    ob3.innerHTML="Password Contain Min 2 Upper and 2 Lower and 2 Digit and 1 Symbol ";
+                    flag = false;
+                }
+				return flag;
+            }
+        }
+		function validationform(){
+            var flag=true;
+            if(isempty())
+            {
+                if(emailval()!=true)
+                flag=false;
+                if(passwordval()!=true)
+                flag=false;
+            }
+            return flag;
+        }
+    </script>
+	
+</body>
+</html>
