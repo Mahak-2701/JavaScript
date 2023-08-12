@@ -13,19 +13,19 @@ body{
 .div2{
     height:360px;
     width:300px;
-    background-color: black;
+    background-color:yellow;
     position: absolute;
     left: 300px;
     top:140px;
-    bottom: 140px;
+    
 }
 .div3{
     height:360px;
     width:300px;
-    background-color: black;
+    background-color: yellow;
     position: absolute;
     left: 300px;
-    top:120px;
+    top:100px;
 }
 .div4{
     height:360px;
