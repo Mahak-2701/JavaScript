@@ -16,7 +16,8 @@ body{
     background-color: black;
     position: absolute;
     left: 300px;
-    top:120px;
+    top:140px;
+    bottom: 140px;
 }
 .div3{
     height:360px;
