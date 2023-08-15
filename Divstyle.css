@@ -3,59 +3,27 @@ body{
     padding: 10px;
 }
 .div1{
-    height:360px;
-    width:300px;
-    background-color: black;
+    height: 400px;
+    width: 350px;
+    background-color: blue;
     position: absolute;
-    left: 300px;
-    top:120px;
+    left: 360px;
+    top:300px;
+
 }
 .div2{
-    height:360px;
-    width:300px;
-    background-color:yellow;
+    height: 380px;
+    width: 350px;
+    background-color: green;
     position: absolute;
-    left: 300px;
-    top:140px;
-    
+    left: 360px;
+    top:300px;
 }
 .div3{
-    height:360px;
-    width:300px;
+    height: 360px;
+    width: 350px;
     background-color: yellow;
     position: absolute;
-    left: 300px;
-    top:100px;
-}
-.div4{
-    height:360px;
-    width:300px;
-    background-color: black;
-    position: absolute;
-    left: 300px;
-    top:120px;
-}
-.div5{
-    height:360px;
-    width:300px;
-    background-color: black;
-    position: absolute;
-    left: 300px;
-    top:120px;
-}
-.div6{
-    height:360px;
-    width:300px;
-    background-color: black;
-    position: absolute;
-    left: 300px;
-    top:120px;
-}
-.div7{
-    height:360px;
-    width:300px;
-    background-color: black;
-    position: absolute;
-    left: 300px;
-    top:120px;
+    left: 360px;
+    top:300px;
 }
