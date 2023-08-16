@@ -19,4 +19,10 @@ class Animal {
       console.log(`${this.name} meows.`);
     }
   }
+
+const dog = new Dog("Buddy");
+const cat = new Cat("Whiskers");
+
+dog.speak();
+cat.speak();
   
