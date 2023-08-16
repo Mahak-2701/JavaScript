@@ -5,4 +5,5 @@ function isPalindrome(str) {
   }
   
 
-  
+  const word = "level";
+  console.log(`Is "${word}" a palindrome? ${isPalindrome(word)}`);
