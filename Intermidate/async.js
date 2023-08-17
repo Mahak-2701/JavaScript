@@ -30,5 +30,8 @@ class Functions extends Error{
     this.salary += salary*12;
     this.perfection.push += perfection;
   }
-  
+
+  display(){
+    return ``;
+  }
 }
