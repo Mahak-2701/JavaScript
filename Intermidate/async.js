@@ -36,3 +36,5 @@ class Functions extends Error{
   }
 }
 
+const obj = new Functions(90000, ["Smilie", "Smile", "Smile"]);
+console.log(obj);
