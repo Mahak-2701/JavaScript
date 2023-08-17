@@ -32,6 +32,7 @@ class Functions extends Error{
   }
 
   display(){
-    return `My Salary is ${this.salary}`;
+    return `My Salary is ${this.salary}\n Perfection: ${this.perfection}`;
   }
 }
+
