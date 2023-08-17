@@ -10,6 +10,7 @@ function divide(a, b) {
 try {
   const result = divide(10, 0);
   console.log("Result:", result);
+  
 } catch (error) {
   console.error("Caught an error:", error.message);
   throw new Error("Caught error, throwing new error");
