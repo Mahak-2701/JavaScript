@@ -22,3 +22,12 @@ async function main() {
 main();
   
 // New
+class Functions extends Error{
+  perfection = ["Ruby", "JSX", "TSX"];
+  salary = 0;
+  constructor(salary, perfection){
+    this.salary += salary*12;
+    this.perfection.push += perfection;
+  }
+  
+}
