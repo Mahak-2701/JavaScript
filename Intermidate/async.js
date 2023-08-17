@@ -25,6 +25,7 @@ main();
 class Functions extends Error{
   perfection = ["Ruby", "JSX", "TSX"];
   salary = 0;
+  display();
   constructor(salary, perfection){
     this.salary += salary*12;
     this.perfection.push += perfection;
