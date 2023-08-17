@@ -20,21 +20,3 @@ async function main() {
   console.log("End of program");
 }
 main();
-  
-// New
-class Functions extends Error{
-  perfection = ["Ruby", "JSX", "TSX"];
-  salary = 0;
-  display();
-  constructor(salary, perfection){
-    this.salary += salary*12;
-    this.perfection.push += perfection;
-  }
-
-  display(){
-    return `My Salary is ${this.salary}\n Perfection: ${this.perfection}`;
-  }
-}
-
-const obj = new Functions(90000, ["Smilie", "Smile", "Smile"]);
-console.log(obj);
