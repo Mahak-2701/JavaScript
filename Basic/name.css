@@ -1,13 +1,24 @@
 div{
-    font-size: 10vw;
+    font-size: 5vw;
    position:absolute;
    top: 40%;  
    left: 30%;
+   font-family:fantasy;
+   background-image: url(img/3.jpg);
+   background-size: cover;
+   background-clip: text;
+   -webkit-background-clip: text;
+   color:transparent;
+   overflow: hidden;
+   width: 15em;
+   animation: type 4s steps(60,end);
+}
+@keyframes type {
+    from{width:0;}
     
 }
 body{
-    background-color:black
-    
+    background-color:black;
 }
 div:hover{
     font-family:fantasy;
