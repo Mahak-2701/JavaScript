@@ -2,7 +2,7 @@ div{
     font-size: 10vw;
    position:absolute;
    top: 40%;  
-   left: 40%;
+   left: 30%;
     font-family:fantasy;
     background-image: url(img/3.jpg);
     background-size: cover;
@@ -11,5 +11,5 @@ div{
     color:transparent;
 }
 body{
-    background-color: #fff;
+    background-color:black
 }
