@@ -3,13 +3,16 @@ div{
    position:absolute;
    top: 40%;  
    left: 30%;
+    
+}
+body{
+    background-color:black
+}
+div:hover{
     font-family:fantasy;
     background-image: url(img/3.jpg);
     background-size: cover;
     background-clip: text;
     -webkit-background-clip: text;
     color:transparent;
-}
-body{
-    background-color:black
 }
