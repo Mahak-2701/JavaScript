@@ -10,3 +10,6 @@ div{
     -webkit-background-clip: text;
     color:transparent;
 }
+body{
+    color: black;
+}
