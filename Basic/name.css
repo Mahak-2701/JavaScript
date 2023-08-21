@@ -1,5 +1,12 @@
 div{
+    font-size: 10vw;
    position:absolute;
    top: 40%;  
-  left: 40%;
+   left: 40%;
+    font-family:fantasy;
+    background-image: url(img/3.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
 }
