@@ -9,6 +9,10 @@ div{
     animation: bounce 1s infinite;
 }
 @keyframe bounce {
-
-    
+0%,100%{
+    transform:translateY(0);
+}
+50%{
+    transform:translateY(-60);
+}  
 }
