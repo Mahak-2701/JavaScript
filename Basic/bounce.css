@@ -6,13 +6,13 @@ div{
     position: absolute;
     top: 200px;
     left:500px;
-    animation: bounce 1s infinite;
+    animation: bounce 2s infinite;
 }
 @keyframes bounce {
 0%,100%{
-    transform: translateY(0);
+    transform: scale(0.5);
 }
 50%{
-    transform: translateY(-60);
+    transform: scale(1);
 }  
 }
