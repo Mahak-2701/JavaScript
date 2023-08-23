@@ -6,6 +6,7 @@ div{
     position:absolute;
     top:200px;
     left:500px;
+    animation: zoom 2s infinite;
 }
 @keyframes zoom {
 0%,100%{
