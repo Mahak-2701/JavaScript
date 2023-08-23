@@ -7,3 +7,8 @@ div{
     top:200px;
     left:500px;
 }
+@keyframes zoom {
+0%,100%{
+    transform: scale(0.5);
+}
+}
