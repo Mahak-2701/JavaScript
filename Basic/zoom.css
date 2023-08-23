@@ -1,6 +1,9 @@
 div{
-    background:linear-gradient(yellow,purple,pink);
+    background:linear-gradient(yellow,rgb(160, 182, 216),pink);
     border-radius: 50%;
     height: 250px;
     width:200px;
+    position:absolute;
+    top:200px;
+    left:500px;
 }
