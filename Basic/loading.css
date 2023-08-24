@@ -1,11 +1,13 @@
-div{
+.div1{
+    margin: 20px;
     height:30vh;
-    width:25vh;
+    width:29vh;
     background-color: aquamarine;
     border-radius: 50%;
     border: 10px solid transparent;
     animation: rotate 2s linear infinite;
 }
+
 @keyframes rotate {
 0%{
     transform: rotate(0deg);
