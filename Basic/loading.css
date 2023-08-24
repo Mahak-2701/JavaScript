@@ -2,7 +2,7 @@
     margin: 20px;
     height:200px;
     width:200px;
-    background-color: aquamarine;
+    background-color: rgb(19, 226, 157);
     border-radius: 50%;
     border: 10px solid transparent;
     animation: rotate 2s linear infinite;
@@ -27,7 +27,7 @@
 }
 100%{
     transform: rotate(360deg);
-    border-top-color: rgb(59, 234, 15);
+    border-top-color: rgba(14, 110, 47, 0.684);
 }
     
 }
