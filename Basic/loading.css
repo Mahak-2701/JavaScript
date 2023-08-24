@@ -3,6 +3,7 @@ div{
     width:25vh;
     background-color: aquamarine;
     border-radius: 50%;
+    border: 10px solid transparent;
 }
 @keyframes rotate {
 0%{
