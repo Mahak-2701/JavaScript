@@ -13,5 +13,13 @@ div{
     transform: rotate(90deg);
     border-top-color: rgb(243, 154, 70);
 }
+50%{
+    transform: rotate(180deg);
+    border-top-color: rgb(239, 223, 82);
+}
+75%{
+    transform: rotate(27deg);
+    border-top-color: rgb(20, 63, 204);
+}
     
 }
