@@ -4,6 +4,7 @@ div{
     background-color: aquamarine;
     border-radius: 50%;
     border: 10px solid transparent;
+    animation: rotate 2s linear infinite;
 }
 @keyframes rotate {
 0%{
