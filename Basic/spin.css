@@ -16,9 +16,9 @@
         transform: rotate(90deg);
         background-color: rgb(76, 162, 193);
     }
-    0%,100%{
-        border-radius: 100%;
-        transform: rotate(90deg);
-        background-color: rgb(76, 162, 193);
+    50%{
+        border-radius: 0%;
+        transform: rotate(180deg);
+        background-color: rgba(19, 68, 19, 0.832);
     }
 }
