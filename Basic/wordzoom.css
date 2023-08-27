@@ -1,9 +1,10 @@
 .container{
    position:absolute;
    top:45%;
-   left: 45%;
-   border: 5px solid green;
+   left: 40%;
    border-style: double;
-   height: 200px;
-   width:200px;
+   height: 100px;
+   width:300px;
+   font-size: 30px;
+   padding: 80px;
 }
