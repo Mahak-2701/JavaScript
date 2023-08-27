@@ -7,7 +7,10 @@
    width:300px;
    font-size: 30px;
    padding: 80px;
+   columns: orange;
 }
-.word span:{
-
+.word span:hover{
+font-size: 40px;
+transition: font-size 0.2s;
+color :blueviolet
 }
