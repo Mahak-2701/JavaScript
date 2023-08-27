@@ -8,6 +8,7 @@
    font-size: 30px;
    padding: 80px;
    columns: orange;
+   border: 3px solid green;
 }
 .word span:hover{
 font-size: 40px;
