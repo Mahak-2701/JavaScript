@@ -10,12 +10,14 @@
     border: 3px solid green;
     display: flex;
    
+   
 }
 .container div{
     height:10px;
     width:50px;
     border-radius: 10px;
     background-color: red;
+    animation: fade 2s infinite;
 }
 @keyframes fade {
 0% ,100%{
