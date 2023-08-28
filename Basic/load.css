@@ -17,3 +17,14 @@
     border-radius: 10px;
     background-color: red;
 }
+@keyframes fade {
+0% ,100%{
+    opacity: 0;
+    transform: scaleX(0);
+}
+50%{
+    opacity: 1;
+    transform: scaleX(1);
+}
+    
+}
