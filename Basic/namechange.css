@@ -18,7 +18,8 @@ body{
 .s2{
     display: none;
 }
-p :hover.s1{ display : none;}
-p :hover .s2{display: i !important; block;
+p:hover .s1{ display : none !important;}
+p:hover .s2{display:  block !important;
+    display: flex;
   color: darkcyan;}
     
