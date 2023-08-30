@@ -22,3 +22,12 @@ class Person {
         }
     }
 }
+
+const person = new Person("Johnny", 30);
+console.log(person.name); // Output: Johnny
+person.name = "Jayne";
+console.log(person.name); // Output: Jayne
+
+console.log(person.age); // Output: 30
+person.age = 35;
+console.log(person.age); // Output: 35
