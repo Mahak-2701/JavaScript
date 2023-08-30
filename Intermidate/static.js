@@ -9,3 +9,4 @@ class MathUtils {
 }
 console.log(MathUtils.square(5));
 console.log(MathUtils.cube(3));
+
