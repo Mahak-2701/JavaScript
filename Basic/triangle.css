@@ -1,6 +1,8 @@
 .container{
-    margin: 20px;
-    height: 100px;
-    width: 100px;
-    background-color: yellow;
+
+
+    width: 380px;
+    height: 250px;
+    border:1px solid#212775;
+  
 }
