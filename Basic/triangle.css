@@ -1,5 +1,6 @@
 .container{
     width: 380px;
     height: 250px;
-    background-color: yellow;  
+    background-color: yellow;
+    border-left: 60px solid transparent;  
 }
