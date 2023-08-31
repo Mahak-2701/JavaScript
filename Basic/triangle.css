@@ -1,3 +1,15 @@
+.fix{
+    display: flex;
+    gap:50px;
+    padding: 20px;
+    width: 380px;
+    height: 250px;
+    border:1px solid#212775;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
 .container{
     width: 90px;
     height: 50px;
@@ -10,4 +22,5 @@
 .container:hover{
     transform: scale(1.2);
     background-color: darkgreen;
+    color :white
 }
