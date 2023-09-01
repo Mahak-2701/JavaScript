@@ -20,6 +20,11 @@ class Animal {
     }
   }
 
+  class Koyal extends Animal, Cat{
+    speak(){
+      console.log( `{this.name} flys.`);
+    }
+  }
 // Execution
 const dog = new Dog("Buddy");
 const cat = new Cat("Whiskers");
