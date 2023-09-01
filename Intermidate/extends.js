@@ -25,7 +25,7 @@ class Cat extends Animal {
     console.log(`${this.name} meows.`);
   }
   rest() {
-
+    console.log(`${this.name} resting..`);
   }
 }
 
