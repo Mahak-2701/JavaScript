@@ -31,10 +31,10 @@ class Cat extends Animal {
 
 class Koyal extends Animal, Cat {
   fly() {
-    console.log(`{this.name} flys.`);
+    console.log(`${this.name} flys.`);
   }
   rest() {
-
+    console.log(`${this.name} resting..`);
   }
 }
 // Execution
@@ -42,7 +42,7 @@ const dog = new Dog("Buddy");
 const cat = new Cat("Whiskers");
 const bird = new Koyal("Koyal");
 
-
+// Common
 dog.speak();
 cat.speak();
 bird.fly();
