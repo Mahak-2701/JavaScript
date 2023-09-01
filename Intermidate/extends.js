@@ -20,9 +20,9 @@ class Animal {
     }
   }
 
+// Execution
 const dog = new Dog("Buddy");
 const cat = new Cat("Whiskers");
 
 dog.speak();
 cat.speak();
-  
