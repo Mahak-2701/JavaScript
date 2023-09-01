@@ -48,3 +48,8 @@ cat.speak();
 bird.fly();
 
 // More
+dog.rest();
+cat.rest();
+bird.rest();
+
+/* End */
