@@ -21,13 +21,16 @@ class Animal {
   }
 
   class Koyal extends Animal, Cat{
-    speak(){
+    fly(){
       console.log( `{this.name} flys.`);
     }
   }
 // Execution
 const dog = new Dog("Buddy");
 const cat = new Cat("Whiskers");
+const bird = new Koyal("Koyal");
+
 
 dog.speak();
 cat.speak();
+bird.fly();
