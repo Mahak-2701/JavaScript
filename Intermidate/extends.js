@@ -6,11 +6,17 @@ class Animal {
     speak() {
       console.log(`${this.name} makes a sound.`);
     }
+    rest(){
+
+    }
   }
   
   class Dog extends Animal {
     speak() {
       console.log(`${this.name} barks.`);
+    }
+    rest(){
+      
     }
   }
   
@@ -18,11 +24,17 @@ class Animal {
     speak() {
       console.log(`${this.name} meows.`);
     }
+    rest(){
+      
+    }
   }
 
   class Koyal extends Animal, Cat{
     fly(){
       console.log( `{this.name} flys.`);
+    }
+    rest(){
+      
     }
   }
 // Execution
