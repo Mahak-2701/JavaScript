@@ -7,7 +7,7 @@ class Animal {
     console.log(`${this.name} makes a sound.`);
   }
   rest() {
-
+    console.log(`${this.name} is resting ..`);
   }
 }
 
@@ -16,7 +16,7 @@ class Dog extends Animal {
     console.log(`${this.name} barks.`);
   }
   rest() {
-
+    console.log(`${this.name} resting..`);
   }
 }
 
@@ -46,3 +46,5 @@ const bird = new Koyal("Koyal");
 dog.speak();
 cat.speak();
 bird.fly();
+
+// More
