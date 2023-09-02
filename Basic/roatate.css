@@ -25,10 +25,11 @@ body {
     width: 150px;
     background-color: blue;
     border-radius: 20px;
+    animation: roatate 3s linear infinite;
 }
  @keyframes roatate {
     0%{
-        transform: rotate(0deg);
+        transform: rotate(60deg);
         background-color: blue;
     }
     50%{
