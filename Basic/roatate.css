@@ -26,3 +26,10 @@ body {
     background-color: blue;
     border-radius: 20px;
 }
+ @keyframes roatate {
+    0%{
+        transform: rotate(0deg);
+        background-color: blue;
+    }
+    
+}
