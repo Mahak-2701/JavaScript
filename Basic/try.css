@@ -18,11 +18,14 @@
     width: 200px;
     background-color: orange;
     border-radius: 40%;
-   animation: try 2s 1;
+    
 }
 @keyframes try {
     0%{
         transform: rotateY(0deg);
         transform: rotateY(360deg);
     }
+}
+.box3 :hover{
+    animation : try 2s infinite;
 }
