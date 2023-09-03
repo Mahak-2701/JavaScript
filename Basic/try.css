@@ -22,7 +22,7 @@
 }
 @keyframes try {
     0%{
-        transform: rotateX(0deg);
-        transform: rotateX(360deg);
+        transform: rotateY(0deg);
+        transform: rotateY(360deg);
     }
 }
