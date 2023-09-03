@@ -26,6 +26,6 @@
         transform: rotateY(360deg);
     }
 }
-.box3 :hover{
+.box3:hover {
     animation : try 2s infinite;
 }
