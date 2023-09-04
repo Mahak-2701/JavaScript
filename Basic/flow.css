@@ -23,7 +23,10 @@
         border-left: 8px solid darkorchid;
     }
     25%{
-        border: none;
+        border-right: 8px solid darkcyan;
+        border-bottom: 8px solid orange;
+        border-left: 8px solid palevioletred;
+        border-top: 8px solid darkorchid;
     }
     50%{
         border: none;
@@ -32,6 +35,6 @@
         border: none;
     }
     100%{
-        transform: rotate(360deg);
+        
     }
 }
