@@ -9,5 +9,29 @@
     height: 200px;
     width: 200px;
     background-color: greenyellow;
-    border-top: 8px solid darkcyan;
+    /* border-top: 8px solid darkcyan;
+    border-right: 8px solid orange;
+    border-bottom: 8px solid palevioletred;
+    border-left: 8px solid darkorchid; */
+    animation: change 2s infinite;
+}
+@keyframes change {
+    0%{
+        border-top: 8px solid darkcyan;
+        border-right: 8px solid orange;
+        border-bottom: 8px solid palevioletred;
+        border-left: 8px solid darkorchid;
+    }
+    25%{
+        border: none;
+    }
+    50%{
+        border: none;
+    }
+    75%{
+        border: none;
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
