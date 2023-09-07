@@ -1,4 +1,6 @@
 div{
     height: 400px;
     width:300px;
+    background-image: url("img/1.jpg");
+    /* background-color: yellow; */
 }
