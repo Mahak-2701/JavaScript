@@ -5,7 +5,7 @@ async function main(){
     let arr = [];
 
     for(let i=0; i<=199; ++i){
-        const val = Math.floor(Math.random() * i)
+        const val = Math.floor(Math.random() * i * i + 0.10325393753);
         setTimeout(() => {
             console.log(`Pushing ${val} into Array.`);
             arr.push(val);
