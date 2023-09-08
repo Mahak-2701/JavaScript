@@ -17,6 +17,5 @@ async function main(){
         console.log(`Displaying Data...\n`);
         console.table(arr);
     }, 1500);
-    await main();
 }
 main();
