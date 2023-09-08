@@ -1,5 +1,7 @@
 async function main(){
     console.log(`Starting Main() function...`);
+    console.log(`\n====================\n`);
+
     let arr = [];
 
     for(let i=0; i<=199; ++i){
@@ -11,7 +13,8 @@ async function main(){
 
     }
     setTimeout(async() => {
-        console.log(`Displaying Data...`);
+        console.log(`\n====================\n`);
+        console.log(`Displaying Data...\n`);
         console.table(arr);
     }, 1500);
     await main();
