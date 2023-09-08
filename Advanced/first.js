@@ -9,7 +9,9 @@ async function main(){
         }, 1000);
 
     }
-    console.log(`Displaying Data...`);
-    console.table(arr);
+    setTimeout(async() => {
+        console.log(`Displaying Data...`);
+        console.table(arr);
+    }, 1500);
 }
 main();
