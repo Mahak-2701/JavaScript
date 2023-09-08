@@ -1,5 +1,6 @@
 async function main(){
-    let arr = []
+    console.log(`Starting Main() function...`);
+    let arr = [];
 
     for(let i=0; i<=199; ++i){
         const val = Math.floor(Math.random() * i)
@@ -13,5 +14,6 @@ async function main(){
         console.log(`Displaying Data...`);
         console.table(arr);
     }, 1500);
+    await main();
 }
 main();
