@@ -16,6 +16,6 @@ async function main(){
         console.log(`\n====================\n`);
         console.log(`Displaying Data...\n`);
         console.table(arr);
-    }, 1500);
+    }, 2000);
 }
 main();
