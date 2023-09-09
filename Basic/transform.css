@@ -15,7 +15,7 @@ body{
     width: 500px;
     background-image: url("img/1.jpg");
     background-color: #cccc;
-    transition: transform 0.5s alternate ;
+    transition: transform 0.5s  ;
 }
 .box1:hover{
     transform: rotatez(180deg);
