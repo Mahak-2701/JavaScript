@@ -3,7 +3,8 @@
     width: 100%;
     display: grid;
     gap: 50px 100px;
-   grid-row: 3;
+   grid-row-start: 1;
+   grid-row-end: 2;
 }
 .box{
    
