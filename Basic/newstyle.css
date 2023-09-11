@@ -3,8 +3,8 @@
     width: 100%;
     display: grid;
     grid-template-columns: 200px 200px 200px;
-    row-gap: 5px;
-    column-gap: 4px;
+   gap:5px;
+   grid-auto-rows: ;
  
 }
 .box{
