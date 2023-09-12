@@ -11,9 +11,3 @@
     padding: 50px;
     background-color: yellow;
 }
-.in1{
-    transform: rotateZ(60deg);
-    height: 200px;
-    width: 200px;
-    background-color: pink;
-}
