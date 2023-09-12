@@ -10,6 +10,6 @@
 .box {
     padding: 50px;
     background-color:pink;
-    box-shadow: 20px 30px 50px 70px;
+    box-shadow: 20px 30px 50px 70px solid palevioletred;
     border-color: rgb(196, 85, 103);
 }
