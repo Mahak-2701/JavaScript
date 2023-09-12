@@ -3,9 +3,17 @@
     grid-template-columns: 200px 200px 200px;
     grid-template-rows: 300px 300px;
     gap: 20px;
+    justify-content: center;
+   
 }
 
 .box {
     padding: 50px;
     background-color: yellow;
+}
+.in1{
+    transform: rotateZ(60deg);
+    height: 200px;
+    width: 200px;
+    background-color: pink;
 }
