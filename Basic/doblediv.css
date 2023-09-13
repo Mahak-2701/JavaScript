@@ -13,8 +13,10 @@
     width:200px;
     border-radius: 10px;
     background-color: rgb(207, 73, 95);
+    rotate: 7deg;
 }
 .item4{
     height: 250px;
     width: 200px;
+    background-color: pink;
 }
