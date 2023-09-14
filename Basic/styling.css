@@ -5,3 +5,8 @@
     justify-content: center;
     align-items: center;
 }
+.box1{
+    background: linear-gradient(rgb(206, 92, 111),rgb(207, 97, 207),rgb(104, 104, 212));
+    height: 250px;
+    width: 200px;
+}
