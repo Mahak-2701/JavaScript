@@ -10,7 +10,14 @@
     height: 250px;
     width: 200px;
     transform: rotateZ(60deg);
+    
 }
 .box1:hover{
-    transform: rotate(0deg);
+    animation: rotation 3s alternate;
+}
+@keyframes rotation {
+    0%,50%{
+        rotate: 0deg;
+    }
+    
 }
