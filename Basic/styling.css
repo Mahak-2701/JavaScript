@@ -9,4 +9,8 @@
     background: linear-gradient(rgb(206, 92, 111),rgb(207, 97, 207),rgb(104, 104, 212));
     height: 250px;
     width: 200px;
+    transform: rotateZ(60deg);
+}
+.box1:hover{
+    transform: rotate(0deg);
 }
