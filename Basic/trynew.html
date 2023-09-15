@@ -18,10 +18,10 @@
         var spa = document.querySelectorAll(".p1");
         spa.forEach((text) => {
             const word = text.textContent.split('')
-            console.log(word, "uhgyftdd");
+            // console.log(word, "uhgyftdd");
             text.innerHTML = ''
             word.forEach((el, index) => {
-                console.log(el, index);
+                // console.log(el, index);
                 word[index] = `<span> <i>${word[
                     index
                 ]}</i></span>`
@@ -29,6 +29,9 @@
             })
             text.innerHTML = word.join(' ')
           const child=  document.querySelectorAll(`span > i`);
+          child.forEach((data,index) => {
+            console.log(data,index,"jhugyfcg");
+          })
         })
     </script>
 </body>
