@@ -6,47 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
-	margin: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	background-color: red;
-}
-        .container{
-            width: 50%;
-
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color:rgb(196, 85, 103);
         }
-        span{
-  display: inline-block;
-  overflow: hidden;
-  animation: .3s swift-up ease-in-out forwards;	
-}
 
-i{
-  font-style: normal;
-  position: relative;
-  top: var(--headingSize);
-  animation: .5s swift-up ease-in-out forwards;
-}
+        p {
+            font-size: 20px;
+        }
 
-@keyframes swift-up {
-  to {
-    top: 0;
-  }
-}
+        /* .container {
+            width: 0%;
+        } */
 
-@media screen and (max-width: 1000px){
-	.container{
-		width: auto;
-		margin: 0 10%;
-	}
-	
-	:root{
-		--headingSize: 35px;
-	}
-}
+        span {
+            display: inline-block;
+            overflow: hidden;
+            animation: 0.03s swift-up ease-in-out forwards;
+        }
+
+        i {
+            font-style: normal;
+            position: relative;
+            top: var(--headingSize);
+            animation: 0.05s swift-up ease-in-out forwards;
+        }
+
+        @keyframes swift-up {
+            to {
+                top: 0;
+            }
+        }
+
+        /* @media screen and (max-width: 1600px) { */
+            .container {
+                width: auto;
+                margin: 0 10%;
+            }
+
+            :root {
+                --headingSize: 35px;
+            }
+        /* } */
     </style>
 </head>
 
@@ -54,32 +59,26 @@ i{
     <div class="container">
 
 
-    <p class="p1">Video provides a powerful way to help you prove your point. When you click Online Video, you can paste
-        in the embed code for the video you want to add.
-        You can also type a keyword to search online for the video that best fits your document. To make your document
-        look professionally produced, Word provides header, footer, cover page, and text box designs that complement
-        each other.
-    </p>
-</div>
+        <p class="p1">I'm Mahak Saini, a passionate developer who loves turning ideas into captivating experiences.
+            Explore my portfolio and join me on a visual adventure through my work.
+        </p>
+    </div>
     <script>
         var spa = document.querySelectorAll(".p1");
         spa.forEach((text) => {
             const word = text.textContent.split('')
-            // console.log(word, "uhgyftdd");
             text.innerHTML = ''
             word.forEach((el, index) => {
-                // console.log(el, index);
                 word[index] = `<span> <i>${word[
                     index
                 ]}</i></span>`
 
             })
             text.innerHTML = word.join(' ')
-          const child=  document.querySelectorAll(`span > i`);
-          child.forEach((data,index) => {
-            console.log(data,index,"jhugyfcg");
-            data.style.animationDelay = `${index* .2}s`
-          })
+            const child = document.querySelectorAll(`span > i`);
+            child.forEach((data, index) => {
+                data.style.animationDelay = `${index * 0.06}s`
+            })
         })
     </script>
 </body>
