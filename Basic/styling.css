@@ -16,8 +16,8 @@
     animation: rotation 3s alternate;
 }
 @keyframes rotation {
-    /* 0%,100%{
+    0%,100%{
         rotate: 0deg;
-    } */
+    }
     
 }
