@@ -30,3 +30,11 @@ const previousSiblingElement = document.getElementById('myElementId').previousEl
 //Nth Child Selector (nth-child):
 // Get the parent element and select its nth child element (e.g., 3rd child)
 const nthChildElement = document.getElementById('parentElementId').querySelector(':nth-child(3)');
+
+//Nth Last Child Selector (nth-last-child):
+// Get the parent element and select its nth last child element (e.g., 2nd last child)
+const nthLastChildElement = document.getElementById('parentElementId').querySelector(':nth-last-child(2)');
+
+//Last Child Selector (lastElementChild):
+// Get the parent element and select its last child element
+const lastChildElement = document.getElementById('parentElementId').lastElementChild;
