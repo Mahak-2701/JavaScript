@@ -1,3 +1,5 @@
+/* Replace elementById with Actual element of querySelector() */
+
 // Access parent and child elements
 const parentElement = elementById.parentNode;
 const firstChild = elementById.firstChild;
