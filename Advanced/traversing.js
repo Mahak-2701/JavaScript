@@ -22,3 +22,11 @@ const siblingElements = document.querySelectorAll('#myElementId ~ .siblingClassN
 //Next Sibling Selector (nextElementSibling):
 // Get the element with ID "myElementId" and select its next sibling
 const nextSiblingElement = document.getElementById('myElementId').nextElementSibling;
+
+//Previous Sibling Selector (previousElementSibling):
+// Get the element with ID "myElementId" and select its previous sibling
+const previousSiblingElement = document.getElementById('myElementId').previousElementSibling;
+
+//Nth Child Selector (nth-child):
+// Get the parent element and select its nth child element (e.g., 3rd child)
+const nthChildElement = document.getElementById('parentElementId').querySelector(':nth-child(3)');
