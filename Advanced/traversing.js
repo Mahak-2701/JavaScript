@@ -14,3 +14,11 @@ const elementsBySelectorAll = elementById.querySelectorAll('.childElements');
 //Adjacent Sibling Selector (+):
 // Get the element with ID "myElementId" and select its adjacent sibling
 const siblingElement = document.querySelector('#myElementId + .siblingClassName');
+
+//General Sibling Selector (~):
+// Get the element with ID "myElementId" and select all its siblings that have the class "siblingClassName"
+const siblingElements = document.querySelectorAll('#myElementId ~ .siblingClassName');
+
+//Next Sibling Selector (nextElementSibling):
+// Get the element with ID "myElementId" and select its next sibling
+const nextSiblingElement = document.getElementById('myElementId').nextElementSibling;
