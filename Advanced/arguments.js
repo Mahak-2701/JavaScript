@@ -5,6 +5,8 @@ function args(a, b, c, ...extra) {
     console.log(arguments[1]); // b
     console.log(arguments[2]); // c
     console.log("Function Terminated\n");
-    console.log(`Extra Arguments : ${args}\n`);
+    console.log(`Extra Arguments : ${extra}\n`);
     return a + b + c;
 }
+
+args(90,80,70);
