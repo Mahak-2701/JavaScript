@@ -3,4 +3,4 @@ function fun(m,n,...args){
     console.log(n);
     console.log(...args,"extra prameter");
 }
-fun(23,67,89)
+fun(23,67,89);
