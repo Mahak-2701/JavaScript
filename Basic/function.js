@@ -1,3 +1,4 @@
+//function to use args
 //args is used to store and get extra parameter from user
 function fun(m,n,...args){
     console.log(m);
