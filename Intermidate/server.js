@@ -1,2 +1,4 @@
 const http=require('http');
-htt
+http.createServer(function(res,req){
+    
+})
