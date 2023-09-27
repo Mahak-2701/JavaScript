@@ -1,5 +1,6 @@
 const http = require('http');
 http.createServer(function (res, req) {
-    req.write("hello");
+    req.write("<b>hello</b><br>");
+    req.write("<span 'style= color:'green''></span>")
     req.end();
 }).listen(8080);
