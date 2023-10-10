@@ -1,1 +1,5 @@
-{}
+{
+  "dependencies": {
+    "override.ps1": "^1.4.0"
+  }
+}
