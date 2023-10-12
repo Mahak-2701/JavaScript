@@ -8,5 +8,10 @@
 
 //syncronized method
 const fs=require('fs');
- const content=fs.readFile("./mahak.js","utf-8");
+ try{
+    const content=fs.readFile("./mahak.js","utf-8");
  console.log(content);
+ }
+ catch(err){
+
+ }
