@@ -9,7 +9,7 @@
 //syncronized method
 const fs=require('fs');
  try{
-    const content=fs.readFileSync("./mahak.js","utf-8");
+    const content=fs.readFileSync("./maha.js","utf-8");
     console.log(content);
  }
  catch(err){
