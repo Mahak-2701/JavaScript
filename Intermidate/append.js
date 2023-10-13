@@ -11,4 +11,5 @@ const fs=require('fs');
 var content="hello by user!!";
 fs.appendFileSync("demo.txt",content);
 console.log(content);
-console.log("i am waiting!!");
+
+console.log("hello");
