@@ -7,7 +7,7 @@ fs.writeFile("demo.txt",content,function(error){
 })*/
 
 //synchronization method
-const fs = require('fs');
+/*const fs = require('fs');
 try {
     var content = "hello by admin!!";
     var data = fs.writeFileSync("demo.txt", content);
@@ -15,4 +15,7 @@ try {
 catch{
     if(err)throw err;
 }
+*/
+
+
 
