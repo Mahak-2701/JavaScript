@@ -13,7 +13,7 @@ const http = require('http');
     req.end();
 });
 const port=5000;
-server.get("/",(req,res)=>{res.send("Mahak jaipal chouhan")});
+
 server.listen(port,()=>{
     console.log(`server is runnimg on http://localhost:${port}`);
 })
