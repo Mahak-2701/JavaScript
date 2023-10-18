@@ -12,5 +12,8 @@ const http = require('http');
     req.write("<span style= 'color:green';> user~~~</span>");
     req.end();
 });
-const port=5000
+const port=5000;
+server.listen(port,()=>{
+    console.log(`server is running on http:// localhost:{$port}`);
+})
 
