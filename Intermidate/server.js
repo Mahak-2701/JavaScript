@@ -14,6 +14,6 @@ const http = require('http');
 });
 const port=5000;
 server.listen(port,()=>{
-    console.log(`server is running on http:// localhost:{$port}`);
+    console.log(port);
 })
 
