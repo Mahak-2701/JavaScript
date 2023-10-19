@@ -1,4 +1,9 @@
-function sayhello(){
-    console.log("hello user");
-}
-module.exports=sayhello();
+// mymodule.js
+function someFunction(){
+    console.log("hello")
+  };
+  
+  module.exports = {
+    someFunction
+  };
+  
