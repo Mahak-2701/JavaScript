@@ -1,2 +1,3 @@
-const say=require('./usermod');
-say.sayhello();
+const Say=require('./usermod');
+
+Say.someFunction();
