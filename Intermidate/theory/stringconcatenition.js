@@ -60,4 +60,20 @@ let counter = 2;
 counter--;        // works the same as counter = counter - 1, but is shorter
 alert( counter ); // 1
 // Important:
-// Increment/decrement can only be applied to variables. Trying to use it on a value like 5++ will give an error
+// Increment/decrement can only be applied to variables. Trying to use 
+// it on a value like 5++ will give an error
+//tasks
+"" + 1 + 0 //10
+"" - 1 + 0//-1
+true + false//1
+6 / "3"//2
+"2" * "3"//6
+4 + 5 + "px"//9px
+"$" + 4 + 5//$45
+"4" - 2//2
+"4px" - 2//NaN
+"  -9  " + 5//"-9 5"
+"  -9  " - 5//-14
+null + 1//1
+undefined + 1//NaN
+" \t \n" - 2//-2
