@@ -55,3 +55,9 @@ let c = 3 - (a = b + 1);
 
 alert( a ); // 3
 alert( c ); // 0
+
+let counter = 2;
+counter--;        // works the same as counter = counter - 1, but is shorter
+alert( counter ); // 1
+// Important:
+// Increment/decrement can only be applied to variables. Trying to use it on a value like 5++ will give an error
