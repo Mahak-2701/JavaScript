@@ -13,7 +13,7 @@ const server=http.createServer((req,res)=>{
        console.log(data);
     })
 });
-const port=5000;
-server.listen(port,()=>{
-    console.log(`server is running on http://localhost:${port}`);
-})
+// const port=5000;
+// server.listen(port,()=>{
+//     console.log(`server is running on http://localhost:${port}`);
+// })
