@@ -1,7 +1,6 @@
-var array = new Array([]);
+var array = new Array([45,74,11,96,48,30]);
 
 async function fetchData(arr) {
-    await this.arr
     return new Promise((resolve, reject) => {
         arr.length > 0 ? resolve(arr) : reject(new Error("Array is empty lol "));
     })
