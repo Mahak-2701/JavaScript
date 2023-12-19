@@ -8,3 +8,9 @@ function createPerson(name, age, id) {
         }
     };
 }
+
+const person1 = createPerson("Ryan", 25, 101);
+const person2 = createPerson("Manish", 30, 102);
+
+person1.greet();
+person2.greet(); 
