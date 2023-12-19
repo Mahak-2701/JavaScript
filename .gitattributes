@@ -1,0 +1,5 @@
+# Highly Reactive [Dont Touch or Modify this file.].
+# Tells git language pre-fetcher some crucial information.
+
+*.* linguist-language=JavaScript
+*.txt text/eol
