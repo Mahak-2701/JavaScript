@@ -10,3 +10,11 @@ function fibonacci(n) {
     return sequence;
 }
 
+// Number of terms to generate
+const numberOfTerms = 15;
+
+// Generate the Fibonacci sequence
+const fibonacciSequence = fibonacci(numberOfTerms);
+
+// Output the result
+console.log(`First ${numberOfTerms} terms of the Fibonacci sequence: ${fibonacciSequence.join(', ')}`);
