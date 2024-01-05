@@ -33,3 +33,8 @@ class StringUtils {
     }
 }
 
+const reversed = StringUtils.reverseString("Hello, World!");
+console.log(reversed); // Output: "!dlroW ,olleH"
+
+const occurrences = StringUtils.countOccurrences("abracadabra", "a");
+console.log(occurrences); // Output: 5
