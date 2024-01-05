@@ -36,3 +36,12 @@ try {
     console.error("Caught an error:", error.message);
 }
 
+function throwError() {
+    throw "pls help im stuck!"; // Throwing a string
+}
+
+try {
+    throwError();
+} catch (error) {
+    console.error("Caught an error:", error);
+}
