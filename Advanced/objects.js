@@ -52,15 +52,11 @@ const person = {
 console.log(person.name);
 person.sayHello();
 
-
 /* 
 Object.assign() is a built-in method in JavaScript that is used to copy the values of all enumerable properties from one or more source objects to a target object. It merges the properties of the source objects into the target object.
-
 Object.assign(target, ...sources)
-
 target: The target object to which the properties will be copied.
 sources: One or more source objects from which the properties will be copied.
-
 */
 
 const target = {
