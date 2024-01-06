@@ -62,3 +62,17 @@ target: The target object to which the properties will be copied.
 sources: One or more source objects from which the properties will be copied.
 
 */
+
+const target = {
+    prop1: 'value1',
+    prop2: 'value2'
+};
+
+const source = {
+    prop2: 'updated value',
+    prop3: 'value3'
+};
+
+const mergedObject = Object.assign(target, source);
+
+console.log(mergedObject);
