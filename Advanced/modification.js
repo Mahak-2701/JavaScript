@@ -16,3 +16,10 @@ document.body.style.overflow = 'hidden';
 document.body.style.margin = '20px';
 document.body.style.border = '1px solid black';
 document.body.style.textAlign = 'center';
+
+const className = document.body.className; // Returns the class attribute value
+document.body.className = 'my-class'; // Sets the class attribute value
+
+//contentEditable: Gets or sets whether the content of the <body> element is editable.
+const contentEditable = document.body.contentEditable; // Returns "true" or "false"
+document.body.contentEditable = 'true'; // Enables editing of the content
