@@ -20,3 +20,18 @@ const authenticateUser = (req, res, next) => {
     next();
 };
 
+// Use middleware in the application
+app.use(logTimestamp);
+app.use(logRequestDetails);
+app.use(authenticateUser);
+
+// Route handler
+app.get('/', (req, res) => {
+    res.send(`Hello, ${req.user.username}!`);
+});
+
+// Start the server
+const PORT = 3000;
+app.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
+});
