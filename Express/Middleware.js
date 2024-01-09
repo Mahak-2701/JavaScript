@@ -13,3 +13,10 @@ const logRequestDetails = (req, res, next) => {
     next();
 };
 
+// Middleware function to simulate authentication
+const authenticateUser = (req, res, next) => {
+    // For simplicity, let's assume authentication is successful
+    req.user = { id: 123, username: 'john_doe' };
+    next();
+};
+
