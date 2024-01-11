@@ -14,3 +14,8 @@ const server = http.createServer((req, res) => {
     res.end()
     res.end(`User-Agent Header: ${userAgent}\n`);
 });
+
+const port = 3000;
+server.listen(port, () => {
+    console.log(`Server is listening on port ${port}`);
+});
