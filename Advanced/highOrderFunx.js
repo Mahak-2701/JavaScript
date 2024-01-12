@@ -22,3 +22,6 @@ function multiplier(factor) {
         return x * factor;
     };
 }
+
+const double = multiplier(2);
+const triple = multiplier(3);
