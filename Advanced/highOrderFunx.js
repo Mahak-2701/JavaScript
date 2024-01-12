@@ -15,3 +15,10 @@ const result2 = applyOperation(subtract, 100, 40);
 
 console.log("Result 1 : "+result1);
 console.log("Result 2 : "+result2);
+
+// Functional programming
+function multiplier(factor) {
+    return function(x) {
+        return x * factor;
+    };
+}
