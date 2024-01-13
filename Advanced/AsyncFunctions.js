@@ -29,3 +29,30 @@ function fetchDataWithXHR() {
     };
     xhr.send();
 }
+
+// setTimeout() example
+setTimeout(() => {
+    console.log('Delayed message after 2 seconds');
+}, 2000);
+
+// setInterval() example
+const intervalId = setInterval(() => {
+    console.log('Repeated message every second');
+}, 1000);
+
+// Clear the interval after 5 seconds
+setTimeout(() => {
+    clearInterval(intervalId);
+}, 5000);
+
+// requestAnimationFrame() example
+const animationLoop = () => {
+    requestAnimationFrame(() => {
+        // Update animation state here
+        console.log('Animation frame');
+        animationLoop(); // Schedule the next frame
+    });
+};
+
+animationLoop(); // Start the animation loop
+
