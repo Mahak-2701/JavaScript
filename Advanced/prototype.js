@@ -25,3 +25,11 @@ Student.prototype.study = function () {
     console.log(`${this.name} is studying hard.`);
 };
 
+// Creating instances of 'Person' and 'Student'
+const person1 = new Person("Alice", 30);
+const student1 = new Student("Bob", 20, "A");
+
+// Using methods from the prototypes
+person1.greet();   // Output: Hello, my name is Alice and I am 30 years old.
+student1.greet();  // Output: Hello, my name is Bob and I am 20 years old.
+student1.study();   // Output: Bob is studying hard.
