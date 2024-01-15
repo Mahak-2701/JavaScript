@@ -18,3 +18,18 @@ wss.on('connection', (ws) => {
 });
 
 // index.html
+const ws = new WebSocket('ws://localhost:8080');
+
+ws.onopen = () => {
+  console.log('Connected to server');
+};
+
+ws.onmessage = (event) => {
+  console.log('Received message:', event.data);
+};
+
+// Send a message to the server
+const sendButton = document.getElementById('send');
+sendButton.addEventListener('click', () => {
+  ws.send('Hello from the client!');
+});
