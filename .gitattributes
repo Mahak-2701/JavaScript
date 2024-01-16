@@ -1,4 +1,4 @@
-# Highly Reactive [Dont Touch or Modify this file.].
+# This is a very crucial file. [Dont Touch or Modify this file].
 # Tells git language pre-fetcher some crucial information.
 
 *.* linguist-language=JavaScript
