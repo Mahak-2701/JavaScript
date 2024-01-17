@@ -16,3 +16,9 @@ process.on('unhandledRejection', (reason, promise) => {
     console.error('Unhandled Rejection at:', promise, 'reason:', reason);
     process.exit(1);
 });
+
+// Exiting the process after a delay
+setTimeout(() => {
+    console.log('Exiting after a delay');
+    process.exit(0);
+}, 3000);
