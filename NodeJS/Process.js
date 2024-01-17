@@ -11,3 +11,8 @@ console.log('Current Working Directory:', process.cwd());
 process.on('exit', (code) => {
     console.log(`Exiting with code ${code}`);
 });
+
+process.on('unhandledRejection', (reason, promise) => {
+    console.error('Unhandled Rejection at:', promise, 'reason:', reason);
+    process.exit(1);
+});
