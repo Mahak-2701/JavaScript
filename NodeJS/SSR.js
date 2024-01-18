@@ -15,4 +15,21 @@ const HelloMessage = (props) => {
 app.get('/', (req, res) => {
   // Render the React component to HTML
   const html = ReactDOMServer.renderToString(React.createElement(HelloMessage, { name: 'Server-Side Rendering' }));
+  // Send the HTML response to the client
+  res.send(`
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Server-Side Rendering Example</title>
+    </head>
+    <body>
+      <div id="root">${html}</div>
+      <script src="client.js"></script>
+    </body>
+    </html>
+  `);
+});
+
 
