@@ -15,3 +15,5 @@ process.stdin.on('data', (data) => {
     process.exit();
 });
 
+// Prompt the user to enter their name
+process.stdout.write('Enter your name: ');
