@@ -11,3 +11,10 @@ set.add(peter);
 set.add(manish);
 set.add(john);
 set.add(manish);
+
+// set keeps only unique values
+console.log(`The Size of Set is : ${set.size}`);
+console.log("\t Displaying Data:");
+for (let user of set) {
+    console.log("\t-> "+user.name);
+}
