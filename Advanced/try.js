@@ -11,6 +11,7 @@ function divide(a, b) {
         console.log("Division attempt completed.");
     }
 }
+
 console.log(divide(10, 2));
 console.log(divide(8, 0));     
-console.log(divide(15, 3));    
+console.log(divide(15, 3));
