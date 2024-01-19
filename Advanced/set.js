@@ -4,3 +4,10 @@ let set = new Set();
 let john = { name: "John" };
 let peter = { name: "Peter" };
 let manish = { name: "Manish" };
+
+// visits, some users come multiple times
+set.add(john);
+set.add(peter);
+set.add(manish);
+set.add(john);
+set.add(manish);
