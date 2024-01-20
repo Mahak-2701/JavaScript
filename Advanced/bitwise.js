@@ -20,4 +20,13 @@ console.log("Right Shift (>>):", 5 >> 1); // Output: 2
 console.log("Zero-fill Right Shift (>>>):", 5 >>> 1); // Output: 2
 
 // Using bitwise operators to check if a number is even or odd
+function checkEvenOdd(num) {
+    if (num & 1) {
+        console.log(num + " is odd.");
+    } else {
+        console.log(num + " is even.");
+    }
+}
 
+checkEvenOdd(8);
+checkEvenOdd(15);
