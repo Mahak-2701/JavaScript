@@ -25,3 +25,11 @@ while (counter < 3) {
     console.log(counter);
     counter++;
 }
+
+// Do...while loop
+console.log("\nDo...while loop:");
+let doWhileCounter = 0;
+do {
+    console.log(doWhileCounter);
+    doWhileCounter++;
+} while (doWhileCounter < 3);
