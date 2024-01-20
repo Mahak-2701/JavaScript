@@ -10,3 +10,10 @@ const obj = { a: 1, b: 2, c: 3 };
 for (let key in obj) {
     console.log(key, obj[key]);
 }
+
+// For...of loop (used for iterating over iterable objects like arrays)
+console.log("\nFor...of loop:");
+const array = [10, 20, 30];
+for (let value of array) {
+    console.log(value);
+}
