@@ -16,3 +16,8 @@ console.log("Left Shift (<<):", 5 << 1); // Output: 10
 // Right Shift (>>)
 console.log("Right Shift (>>):", 5 >> 1); // Output: 2
 
+// Zero-fill Right Shift (>>>)
+console.log("Zero-fill Right Shift (>>>):", 5 >>> 1); // Output: 2
+
+// Using bitwise operators to check if a number is even or odd
+
