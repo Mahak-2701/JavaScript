@@ -17,3 +17,11 @@ const array = [10, 20, 30];
 for (let value of array) {
     console.log(value);
 }
+
+// While loop
+console.log("\nWhile loop:");
+let counter = 0;
+while (counter < 3) {
+    console.log(counter);
+    counter++;
+}
