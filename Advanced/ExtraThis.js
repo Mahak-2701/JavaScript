@@ -32,3 +32,14 @@ function strictHello() {
     console.log(`This inside strict function: ${this}`); // undefined in strict mode
 }
 
+strictHello();
+
+// Summary
+console.log("--- Summary of 'this' behavior ---");
+console.log("1. Default binding:", undefined); // undefined as global object is not logged
+console.log("2. Object binding:", person);
+console.log("3. Implicit binding:", undefined); // undefined as implicit binding falls back to global
+console.log("4. Lexical binding:", person);
+console.log("5. Explicit binding:", person);
+console.log("6. Bound binding:", person);
+console.log("Strict mode 'this':", undefined); // undefined as global object is not logged
