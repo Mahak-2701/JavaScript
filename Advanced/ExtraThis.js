@@ -14,3 +14,8 @@ const person = {
     },
 };
 
+// Calling functions with different contexts
+sayHello.call(person); // 5. Explicit binding with call() - sets 'this' to 'person'
+person.greet();
+person.arrowGreet();
+
