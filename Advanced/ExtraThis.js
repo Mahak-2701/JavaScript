@@ -19,3 +19,16 @@ sayHello.call(person); // 5. Explicit binding with call() - sets 'this' to 'pers
 person.greet();
 person.arrowGreet();
 
+// Binding function with bind()
+const boundSayHello = sayHello.bind(person);
+boundSayHello(); // 6. Bound binding with bind() - sets permanent 'this' context
+
+// Strict mode changes
+"use strict"; // Strict mode activated
+
+sayHello(); // Throws TypeError - undefined 'this' in strict mode
+
+function strictHello() {
+    console.log(`This inside strict function: ${this}`); // undefined in strict mode
+}
+
