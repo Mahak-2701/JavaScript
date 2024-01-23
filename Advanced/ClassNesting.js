@@ -14,3 +14,10 @@ const OuterClass = class {
     };
 };
 
+// Example usage
+const outerInstance = new OuterClass();
+console.log(outerInstance.outerProperty);
+
+const innerInstance = new outerInstance.InnerClass();
+console.log(innerInstance.innerProperty);
+innerInstance.innerMethod();
