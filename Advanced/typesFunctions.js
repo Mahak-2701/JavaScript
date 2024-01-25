@@ -8,3 +8,6 @@ function third (params) {
     console.log(`Traditional Function Expr.`);
 }
 
+(() => {
+    console.log(`Anonymous Function Without params.`);
+})();
