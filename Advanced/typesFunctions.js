@@ -11,3 +11,7 @@ function third (params) {
 (() => {
     console.log(`Anonymous Function Without params.`);
 })();
+
+( async (params) => {
+    console.log(`Anonymous async Function With params.`);
+})();
