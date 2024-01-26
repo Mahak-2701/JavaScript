@@ -1,1 +1,0 @@
-navigator.cookieEnabled.valueOf.apply.apply.apply.apply.
