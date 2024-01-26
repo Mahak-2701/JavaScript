@@ -2,4 +2,4 @@
 # Tells git language pre-fetcher some crucial information.
 
 *.* linguist-language=JavaScript
-* -text
+* type=text eol=lf
