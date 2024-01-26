@@ -13,8 +13,8 @@
 - Typing discipline: Dynamic, weak, duck
 - Loosely Typed Language.
 
------------------------------------
 # Personal Repository for JavaScript.
 - Managed by Me.
 - Follow me on [Github](https://github.com/Mahak-2701/).
 - Visit [JavaScript](https://javascript.com/) Official Page.
+- Thank you.
