@@ -1,5 +1,1 @@
-const obj = {}
-
-obj.prototype.funx = () => {
-    console.log(`Whtss`);
-}
+navigator.cookieEnabled.valueOf.apply.apply.apply.apply.
