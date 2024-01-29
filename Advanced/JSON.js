@@ -11,3 +11,11 @@ const originalObject = {
         country: "USA"
     }
 };
+
+// JSON.stringify(): Convert JavaScript object to JSON string
+const jsonString = JSON.stringify(originalObject);
+console.log("JSON String:", jsonString);
+
+// JSON.parse(): Convert JSON string back to JavaScript object
+const parsedObject = JSON.parse(jsonString);
+console.log("Parsed Object:", parsedObject);
