@@ -42,3 +42,6 @@ console.log("Custom Parsed Object:", customParsedObject);
 const prettyJsonString = JSON.stringify(originalObject, null, 2);
 console.log("Pretty JSON String:", prettyJsonString);
 
+// JSON.stringify() with pretty printing and custom sorting
+const sortedJsonString = JSON.stringify(originalObject, Object.keys(originalObject).sort(), 4);
+console.log("Sorted JSON String:", sortedJsonString);
