@@ -1,3 +1,6 @@
+/**
+ * @description Example of GET request in HTTP module.
+ */
 // Sending a GET request
 fetch('https://jsonplaceholder.typicode.com/posts/1')
     .then(response => {
