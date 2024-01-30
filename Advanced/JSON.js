@@ -20,3 +20,12 @@ console.log("JSON String:", jsonString);
 const parsedObject = JSON.parse(jsonString);
 console.log("Parsed Object:", parsedObject);
 
+// JSON.stringify() with a custom replacer function
+const customJsonString = JSON.stringify(originalObject, (key, value) => {
+    if (key === "age") {
+        return value + 5;
+    }
+    return value;
+});
+console.log("Custom JSON String:", customJsonString);
+
