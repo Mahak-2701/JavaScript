@@ -45,3 +45,13 @@ console.log("Pretty JSON String:", prettyJsonString);
 // JSON.stringify() with pretty printing and custom sorting
 const sortedJsonString = JSON.stringify(originalObject, Object.keys(originalObject).sort(), 4);
 console.log("Sorted JSON String:", sortedJsonString);
+
+
+// JSON.parse() error handling
+const invalidJsonString = '{"name": "Alice", "age":}';
+try {
+    const parsedInvalidJson = JSON.parse(invalidJsonString);
+    console.log(parsedInvalidJson);
+} catch (error) {
+    console.error("Error parsing JSON:", error.message);
+}
