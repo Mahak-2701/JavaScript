@@ -29,3 +29,16 @@ const customJsonString = JSON.stringify(originalObject, (key, value) => {
 });
 console.log("Custom JSON String:", customJsonString);
 
+// JSON.parse() with a custom reviver function
+const customParsedObject = JSON.parse(customJsonString, (key, value) => {
+    if (key === "age") {
+        return value - 5;
+    }
+    return value;
+});
+console.log("Custom Parsed Object:", customParsedObject);
+
+// JSON.stringify() with pretty printing (spacing)
+const prettyJsonString = JSON.stringify(originalObject, null, 2);
+console.log("Pretty JSON String:", prettyJsonString);
+
