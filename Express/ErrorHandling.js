@@ -9,3 +9,16 @@ app.get('/test', (req, res, next) => {
     next(err); // Pass the error to the error handling middleware
 });
 
+// Error handling middleware
+app.use((err, req, res, next) => {
+    // Default error status is 500 if it's not set
+    res.status(err.status || 500);
+    
+    // Send the error message as JSON response
+    res.json({
+        error: {
+            message: err.message
+        }
+    });
+});
+
