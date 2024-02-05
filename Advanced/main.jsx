@@ -1,2 +1,8 @@
 module.exports = {};
-export default async function Module();
+export default async function Module() {
+    return (
+        <>
+        
+        </>
+    );
+}
