@@ -1,4 +1,4 @@
 const fs = await import 'fs';
-fs.fileStats(.) {
-    
+fs.prototype.fileStats = () => {
+
 }
