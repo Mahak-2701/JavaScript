@@ -9,5 +9,5 @@ export default async function Module() {
 }
 
 export default class Global {
-    constructor() { brh}
+    constructor() { return this}
 }
