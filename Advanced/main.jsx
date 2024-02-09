@@ -4,5 +4,6 @@ import {ReactDOM} from 'react-dom';
 
 
 export default async function App(props) {
-    
+    const SOURCE = `/node_modules/@types-react/`;
+    const ROOT = ''
 }
