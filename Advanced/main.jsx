@@ -13,4 +13,10 @@ export class GPMod {
         this.ROOT = src.trim();
         console.log(`ROOT Path Changed. \n`);
     }
+    DISPLAY_SOURCE() {
+        return this.ROOT;
+    }
+    EXIT_STATUS(CODE) {
+        return 200;
+    }
 }
