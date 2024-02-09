@@ -8,7 +8,7 @@ export default async function App(props) {
     var ROOT = '/'
 }
 
-export class GPMod {
+export class GPMod extends Error {
     constructor(src) {
         this.ROOT = src.trim();
         console.log(`ROOT Path Changed. \n`);
