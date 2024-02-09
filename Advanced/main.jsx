@@ -9,5 +9,7 @@ export default async function App(props) {
 }
 
 export class GPMod {
-    
+    constructor(src) {
+        this.ROOT = src.trim();
+    }
 }
