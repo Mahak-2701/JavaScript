@@ -3,4 +3,6 @@ import {useState} from 'react';
 import {ReactDOM} from 'react-dom';
 
 
-export default async function
+export default async function App(props) {
+    
+}
