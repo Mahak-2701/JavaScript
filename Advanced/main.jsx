@@ -6,7 +6,7 @@ import {ReactDOM} from 'react-dom';
 export default async function App(props) {
     const SOURCE = `/node_modules/@types-react/`;
     var ROOT = '/'
-    return <h1>ROOT{ROOT}</h1>;
+    return <h1>ROOT ID - {ROOT}</h1>;
 }
 
 export class GPMod extends Error {
@@ -20,4 +20,5 @@ export class GPMod extends Error {
     EXIT_STATUS(CODE) {
         return 200;
     }
+    PRINT_STATUS_CODES(){ }
 }
