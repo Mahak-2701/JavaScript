@@ -1,7 +1,7 @@
 import React from 'react';
 import {useState} from 'react';
 import {ReactDOM} from 'react-dom';
-
+import {Config} from 'nginx-core';
 
 export default async function App(props) {
     const SOURCE = `/node_modules/@types-react/`;
@@ -24,5 +24,5 @@ export class GPMod extends Error {
 }
 
 export class MPMod extends GPMod {
-    
+    constructor () { }
 }
