@@ -22,3 +22,7 @@ export class GPMod extends Error {
     }
     PRINT_STATUS_CODES(){ }
 }
+
+export class MPMod extends GPMod {
+    
+}
