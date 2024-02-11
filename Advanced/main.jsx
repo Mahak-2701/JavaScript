@@ -25,4 +25,5 @@ export class GPMod extends Error {
 
 export class MPMod extends GPMod {
     constructor () { }
+    start() { return Config.NAS.code}
 }
