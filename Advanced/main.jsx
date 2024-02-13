@@ -30,4 +30,5 @@ export class MPMod extends GPMod {
     stop() { return Config.NAS.stop.code }
     restart() { return Config.NAS.restart.code }
     details() { return NAS.statuscode || 8901 } 
+    RESET() { Config.RESET || delete arguments;}
 }
