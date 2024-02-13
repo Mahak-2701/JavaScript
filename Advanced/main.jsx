@@ -11,6 +11,7 @@ export default async function App(props) {
 
 export class GPMod extends Error {
     constructor(src) {
+        super();
         this.ROOT = src.trim();
         console.log(`ROOT Path Changed. \n`);
     }
@@ -27,4 +28,5 @@ export class MPMod extends GPMod {
     constructor () { }
     start() { return Config.NAS.start.code }
     stop() { return Config.NAS.stop.code }
+    restart() { return Config.NAS.restart.code }
 }
