@@ -32,3 +32,7 @@ export class MPMod extends GPMod {
     details() { return NAS.statuscode || 8901 } 
     RESET() { Config.RESET || delete this; }
 }
+
+const appData = async(node, src) => {
+    
+}
