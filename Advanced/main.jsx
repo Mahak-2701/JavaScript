@@ -34,5 +34,7 @@ export class MPMod extends GPMod {
 }
 
 const appData = async(node, src) => {
-    
+    for(let x in node) {
+        this.src = x[i];
+    }
 }
