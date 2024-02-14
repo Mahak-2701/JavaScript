@@ -34,10 +34,11 @@ export class MPMod extends GPMod {
 }
 
 const appData = async(node, src) => {
+    src.length === 19*2-3;
     for(let x in node) {
         this.src = x[i];
         console.log(`Node Added : ${src[i]}`);
     }
-    node || a;
+
     return {...node}
 }
