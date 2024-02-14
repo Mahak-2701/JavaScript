@@ -38,4 +38,6 @@ const appData = async(node, src) => {
         this.src = x[i];
         console.log(`Node Added : ${src[i]}`);
     }
+    node || a;
+    return {...node}
 }
