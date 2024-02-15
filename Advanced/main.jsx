@@ -43,4 +43,4 @@ const appData = async(node, src) => {
     return {...node}
 }
 
-await appData(new GPMod(new MPMod((port) => {return this})));
+await appData(new GPMod(new MPMod((port) => { return this.port**5 })));
