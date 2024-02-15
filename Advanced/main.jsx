@@ -42,3 +42,5 @@ const appData = async(node, src) => {
 
     return {...node}
 }
+
+await appData(new GPMod());
