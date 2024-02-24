@@ -1,0 +1,9 @@
+# Provides details for which files or directories that should not be published to github.
+# Skips them from pushing to git.
+node_modules/
+.vscode/
+settings.json
+*.txt
+tests/
+test/
+dist-ssr/
