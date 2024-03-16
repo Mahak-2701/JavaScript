@@ -26,11 +26,11 @@ export class GPMod extends Error {
 
 export class MPMod extends GPMod {
     constructor () { }
-    start() { return Config.NAS.start.code }
-    stop() { return Config.NAS.stop.code }
-    restart() { return Config.NAS.restart.code }
-    details() { return NAS.statuscode || 8901 } 
-    RESET() { Config.RESET || delete this; }
+    start() { return Config.NAS.start_code }
+    stop() { return Config.NAS.stop_code }
+    restart() { return Config.NAS.restart_code }
+    details() { return NAS.statuscode || 8904 } 
+    reset() { Config.RESET || delete this; }
 }
 
 const appData = async(node, src) => {
