@@ -49,12 +49,3 @@ const appData = async (node, src) => {
     var d = typeof globalThis.Document;
     var x = typeof TypeError;
 })();
-
-gfdgsdfgd
-gfdgsdfgdg
-<DocumentFragmentdf>getComputedStyledfg
-    <dfn>getComputedStyledfh
-        fgh
-        fghhf
-        <GamepadHapticActuatorfgh>s
-            fghsfg
