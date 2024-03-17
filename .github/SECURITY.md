@@ -1,6 +1,7 @@
 # Please Maintain The Privacy and Security Guidelines.
 
-- Improve your skills & Keep Coding !!.
-- This Repository is Made Available by Me. 
-- Hence All Stuff in this repository is referred to as private work.
+- Improve your skills & Level Up Your Coding !!.
+- This Repository is for educational purposes only. 
 - Thank you.
+
+Please create an issue [here](https://github.com/Mahak-2701/JavaScript/issues) to report any potential issues.
