@@ -49,3 +49,5 @@ const appData = async (node, src) => {
     var d = typeof globalThis.Document;
     var x = typeof TypeError;
 })();
+
+var Document = this.Document;
