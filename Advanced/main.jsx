@@ -58,10 +58,3 @@ gfdgsdfgdg
         fghhf
         <GamepadHapticActuatorfgh>s
             fghsfg
-            <SVGForeignObjectElementgfj><SVGForeignObjectElementsfg>jfsg
-                
-                fg
-\HapticActuatorfghs</h1></fieldset></s></fieldset></SVGForeignObjectElementgfjsj></SVGForeignObjectElementgfjh></SVGForeignObjectElementsfg></SVGForeignObjectElementgfj>
-        </GamepadHapticActuatorfgh>
-    </dfn>
-</DocumentFragmentdf>
