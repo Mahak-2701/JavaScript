@@ -46,5 +46,6 @@ const appData = async (node, src) => {
 
 (async() => {
     const SOURCE = await appData(new GPMod(new MPMod((port) => { return this.port ** 5 / port-- + port++ })));
-
+    var d = typeof globalThis.Document;
+    var x = typeof TypeError;
 })();
