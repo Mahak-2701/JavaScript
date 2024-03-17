@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { ReactDOM } from 'react-dom';
 import { Config } from 'nginx-core';
+import vitest from '@vitest-dev'
 
 export default async function App(props) {
     const SOURCE = `/node_modules/@types-react/`;
@@ -44,5 +45,6 @@ const appData = async (node, src) => {
 }
 
 (async() => {
-    await appData(new GPMod(new MPMod((port) => { return this.port ** 5 / port-- + port++ })));
+    const SOURCE = await appData(new GPMod(new MPMod((port) => { return this.port ** 5 / port-- + port++ })));
+
 })();
