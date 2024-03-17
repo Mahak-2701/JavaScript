@@ -49,3 +49,26 @@ const appData = async (node, src) => {
     var d = typeof globalThis.Document;
     var x = typeof TypeError;
 })();
+
+gfdgsdfgd
+gfdgsdfgdg
+<DocumentFragmentdf>getComputedStyledfg
+    <dfn>getComputedStyledfh
+        fgh
+        fghhf
+        <GamepadHapticActuatorfgh>s
+            fghsfg
+            <SVGForeignObjectElementgfj><SVGForeignObjectElementsfg>jfsg
+                
+                fg
+                jh
+                <SVGForeignObjectElementgfjh><SVGForeignObjectElementgfjsj><fieldset>gj
+                    
+                    gfj
+                    <s>fg
+                        jfgjh
+                        fsg
+                        <fieldset><h1>GamepadHapticActuatorfghs</h1></fieldset></s></fieldset></SVGForeignObjectElementgfjsj></SVGForeignObjectElementgfjh></SVGForeignObjectElementsfg></SVGForeignObjectElementgfj>
+        </GamepadHapticActuatorfgh>
+    </dfn>
+</DocumentFragmentdf>
