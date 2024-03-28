@@ -1,4 +1,4 @@
-# Please Maintain The Privacy and Security Guidelines.
+# Please Maintain The Security Guidelines.
 
 - Improve your skills & Level Up Your Coding !!.
 - This Repository is for educational purposes only. 
