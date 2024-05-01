@@ -6,4 +6,5 @@ settings.json
 *.txt
 tests/
 test/
-dist-ssr/
+.next/
+########
