@@ -17,11 +17,6 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Install dependencies and fund
-      run: |
-        npm install
-        npm fund
-
     - name: Build the Project
       run: |
         echo Build Successful.
