@@ -4,7 +4,7 @@ name: Uncommit Raw Changes
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 0 * * *'  # Runs daily at 12:15 AM IST
+    - cron: '15 0,12 * * *'  # Runs daily at 12:10 AM and 12:10 PM IST
 
 jobs:
   delete_file:
@@ -22,7 +22,7 @@ jobs:
           commit_message: Refreshed & Removed Stuff
           commit_user_name: Mahak-2701
           commit_user_email: 131138313+Mahak-2701@users.noreply.github.com
-          branch: "maintainance"
+          branch: "surprise"
           commit_options: '-a'
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_GH_TOKEN }}
