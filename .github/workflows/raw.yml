@@ -1,0 +1,24 @@
+name: Commit Raw Changes
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 0,12 * * *'  # Runs daily at 12:10 AM and 12:10 PM IST
+
+jobs:
+  create_file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        
+      - name: Create main.txt
+        run: echo "Hello world" > main.txt
+        
+      - name: Add and commit main.txt
+        run: |
+          git config --global user.name "Mahak-2701"
+          git config --global user.email "131138313+Mahak-2701@users.noreply.github.com"
+          git add main.txt
+          git commit -m "Doing job."
+          git push
