@@ -3,7 +3,6 @@
 node_modules/
 .vscode/
 settings.json
-*.txt
 tests/
 test/
 .next/
