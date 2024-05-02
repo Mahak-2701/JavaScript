@@ -24,7 +24,7 @@ jobs:
           commit_user_email: 131138313+Mahak-2701@users.noreply.github.com
           branch: ${{ github.ref }}
           commit_options: '-a'
-          file_pattern: main.txt
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GH_TOKEN }}
+          
 ########### SECURE CONTEXT END ##############

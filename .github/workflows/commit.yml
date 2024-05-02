@@ -14,7 +14,9 @@ jobs:
         uses: actions/checkout@v2
         
       - name: Check for Changes
-        run: echo "Hello world" > main.txt
+        run: |
+          touch main.txt
+          echo "Hello world" > main.txt
         
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
@@ -24,7 +26,6 @@ jobs:
           commit_user_email: 131138313+Mahak-2701@users.noreply.github.com
           branch: ${{ github.ref }}
           commit_options: '-a'
-          file_pattern: main.txt
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GH_TOKEN }}
 
