@@ -8,7 +8,7 @@ on:
 
 jobs:
   delete_file:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -24,7 +24,7 @@ jobs:
           commit_user_email: 131138313+Mahak-2701@users.noreply.github.com
           branch: ${{ github.ref }}
           commit_options: '-a'
+          file_pattern: main.txt
         env:
-          GITHUB_TOKEN: ${{ secrets.BOT_GH_TOKEN }}
-
+          GITHUB_TOKEN: ${{ secrets.MY_GH_TOKEN }}
 ########### SECURE CONTEXT END ##############
