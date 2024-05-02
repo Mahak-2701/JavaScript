@@ -20,11 +20,9 @@ jobs:
         run: |
           git config --global user.name "Mahak-2701"
           git config --global user.email "131138313+Mahak-2701@users.noreply.github.com"
-          git checkout surprise
           git add .
           git commit -m "Doing job for ya."
           git push
     
     
-
 ########### SECURE CONTEXT END ##############
