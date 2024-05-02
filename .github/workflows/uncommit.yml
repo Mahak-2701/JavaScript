@@ -4,27 +4,27 @@ name: Uncommit Raw Changes
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 0,12 * * *'  # Runs daily at 12:10 AM and 12:10 PM IST
+    - cron: '15 0,12 * * *'  # Runs daily at 12:15 AM and 12:15 PM IST
 
 jobs:
-  delete_file:
+  job:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
         
-      - name: Check for Changes
+      - name: Doing Job
         run: rm -f main.txt
         
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Refreshed & Removed Stuff
-          commit_user_name: Mahak-2701
-          commit_user_email: 131138313+Mahak-2701@users.noreply.github.com
-          branch: ${{ github.ref }}
-          commit_options: '-a'
-        env:
-          GITHUB_TOKEN: ${{ secrets.MY_GH_TOKEN }}
-          
+      - name: Commit the Changes
+        run: |
+          git config --global user.name "Mahak-2701"
+          git config --global user.email "131138313+Mahak-2701@users.noreply.github.com"
+          git checkout surprise
+          git add .
+          git commit -m "Doing job for ya."
+          git push
+    
+    
+
 ########### SECURE CONTEXT END ##############
